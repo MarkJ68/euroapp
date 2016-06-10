@@ -17,7 +17,7 @@
     <tbody>
       <tr ng-repeat="contact in contacts | orderBy:'match'" style="cursor:pointer">
         <td style="text-align: center;">
-          <a  #/contact/{{contact._id}}">{{ contact.home }}  {{contact.hscore}}  V   {{contact.ascore}}  {{ contact.away }}</a>
+          <a ng-href= "#/contact/{{contact._id}}">10/06/16 {{ contact.home }}  {{contact.hscore}}  V   {{contact.ascore}}  {{ contact.away }}</a>
         </td>
       </tr>
     </tbody>
