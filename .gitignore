@@ -1,3 +1,7 @@
 node_modules
 /.ntvs_analysis.dat
 /NodejsApp1.njsproj
+/NodejsApp1.sln
+/bin
+/obj/Debug
+/.vs
