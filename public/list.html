@@ -16,8 +16,8 @@
   <table class="table table-hover">
     <tbody>
       <tr ng-repeat="contact in contacts | orderBy:'match'" style="cursor:pointer">
-        <td>
-          <a style="margin auto" #/contact/{{contact._id}}">{{ contact.home }}  {{contact.hscore}}  V   {{contact.ascore}}  {{ contact.away }}</a>
+        <td style="margin: 0 auto; width: 100%">
+          <a  #/contact/{{contact._id}}">{{ contact.home }}  {{contact.hscore}}  V   {{contact.ascore}}  {{ contact.away }}</a>
         </td>
       </tr>
     </tbody>
