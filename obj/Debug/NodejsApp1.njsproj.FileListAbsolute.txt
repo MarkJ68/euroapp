@@ -1,2 +1,0 @@
-C:\Users\mark\euroapp\obj\Debug\NodejsApp1.njsprojResolveAssemblyReference.cache
-C:\Users\mark\euroapp\bin\Microsoft.NodejsTools.WebRole.dll
