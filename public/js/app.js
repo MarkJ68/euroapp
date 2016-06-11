@@ -21,7 +21,10 @@ angular.module("contactsApp", ['ngRoute'])
             .otherwise({
                 redirectTo: "/"
             })
-    })
+            })
+        $scope.showContact = function (contact) {
+            $location.path('#/conacts/' + contact._id);
+            };
     .service("Contacts", function($http) {
         this.getContacts = function() {
             return $http.get("/contacts").
