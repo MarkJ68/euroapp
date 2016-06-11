@@ -121,6 +121,7 @@ angular.module("contactsApp", ['ngRoute'])
         }
 });
 $scope.go = function () {
-    alert("hi");
+    var contactUrl = "/contact/" + doc.data._id;
+    $location.path(contactUrl);
   //...
 };
