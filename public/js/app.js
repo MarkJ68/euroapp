@@ -72,8 +72,8 @@ angular.module("contactsApp", ['ngRoute'])
     })
     .controller("ListController", function(contacts, $scope) {
         $scope.contacts = contacts.data;
-        $scope.updateScore = function (contact) {
-        $location.path("/contacts/" + contact._id);
+        $scope.updateScore = function () {
+        $location.path("/contact/");
         alert("help");
 
     }
