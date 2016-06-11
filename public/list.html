@@ -13,7 +13,7 @@
 <div class="container">
   <table class="table table-hover">
     <tbody>
-      <tr ng-repeat="contact in contacts | orderBy:'match'" style="cursor:pointer" ng-click="saveContact(contact)">
+      <tr ng-repeat="contact in contacts | orderBy:'match'" style="cursor:pointer" ng-click="updateScore(contact._id)">
           <td>
               {{contact.date}}
           </td>
