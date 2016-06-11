@@ -23,7 +23,8 @@ angular.module("contactsApp", ['ngRoute'])
             })
             })
         $scope.showContact = function (contact) {
-            $location.path('#/conacts/' + contact._id);
+    controller: "EditContactController",
+                templateUrl: "contact.html"
             }
     .service("Contacts", function($http) {
         this.getContacts = function() {
